@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="script" href="script.js">
+    <link rel="stylesheet" href="style.css">
+    <script
+	type="module"
+	src="https://cdn.jsdelivr.net/npm/@mariohamann/activity-graph/dist/activity-graph.min.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+</head>
+<body class="">
+    <div class="container">
+
+
+         <!-- nav bar  -->
+        <nav class="navbar">
+                    <div class="box theme">
+                        <div class="item" onclick="theme()">
+                            <ion-icon id="lightBtn" name="sunny-outline"></ion-icon>
+                            <ion-icon id="darkBtn" name="moon-outline" style="display: none;"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="box nav ">
+                    <div class="item"><a href="#about">
+                        <ion-icon name="person-circle-outline"></ion-icon>
+                        <p>about</p>
+                         </a>
+                        <div class="divider rtl"></div>
+                    </div>
+                    <div class="item"><a href="#resume">
+                        <ion-icon name="file-tray-full-outline"></ion-icon>
+                        <p>resume</p>
+                        </a>
+                        <div class="divider rtl"></div>
+                    </div>
+                    <div class="item"><a href="#projects">
+                        <ion-icon name="layers-outline"></ion-icon>
+                        <p>projects</p>
+                        </a>
+                          <div class="divider rtl"></div>
+                    </div>
+                    <div class="item"><a href="#blogs">
+                        <ion-icon name="reader-outline"></ion-icon>
+                        <p>blogs</p>
+                        </a>
+                         <div class="divider rtl"></div>
+                    </div>
+                    <div class="item"><a href="#contact">
+                        <ion-icon name="paper-plane-outline"></ion-icon>
+                        <p>contact</p>
+                         </a>
+                         <div class="divider itr"></div>
+                    </div>
+                    </div>
+
+        </nav>
+
+           <!----  profile   ---->
+        <div class="box profile">
+            <img src="1.jpg" alt="" class="header">
+            <img src="pfp.jpg" alt="" class="img">
+            <h2>Ammar Altanany</h2>
+            <p id="typed" class="colord">
+                Front-End Web Developer
+            </p>
+            <ul>
+                <il><a href="https://github.com/ammarthehacker0-debug"><ion-icon name="logo-github"></ion-icon></a></il>
+                <il><a href="https://www.facebook.com/share/1GXK5ueT1N/"><ion-icon name="logo-facebook"></ion-icon></a></il>
+                <il><a href="https://www.instagram.com/ammaraltanany?igsh=OXV4eTZ3YWk4bmdw"><ion-icon name="logo-instagram"></ion-icon></a></il>
+                <il><a href="https://www.linkedin.com/in/ammar-altanany-8642a9309/"><ion-icon name="logo-linkedin"></ion-icon></a></il>
+            </ul>
+            <div class="footer">
+                <div class="divider rtl"></div>
+                <table>
+                    <tr>
+                        <td><a href="#">My Resume <ion-icon name="file-tray-full-outline"></ion-icon></a></td>
+                        <td><a href="#">Contact Me <ion-icon name="call-outline"></ion-icon></a></td>
+                    </tr>
+                </table>
+            </div>
+
+                   <!----  contant   ---->
+
+</div>
+        <div class="box content" >
+            <div class="wrapper">
+                        <h2 id="about">hay <span class="colord">there!</span></h2>
+            <div class="divider ltr"></div>
+            <P>hi i'm Ammar and I’m a passionate Front-End Web Developer who turns ideas into fast, responsive, and user-friendly web applications</P>
+        
+           
+           
+            <!----  achivements   ---->
+           
+           
+                <section class="achivements">
+                <div>
+                    <h3><ion-icon name="layers-outline"></ion-icon>700+</h3>
+                    <p>responsive web ui</p>
+                </div>
+                 <div>
+                    <h3><ion-icon name="briefcase-outline"></ion-icon> 2+</h3>
+                    <p>years of experience in Front-End Developing </p>
+                </div>
+                 <div>
+                    <h3><ion-icon name="rocket-outline"></ion-icon> 200+</h3>
+                    <p>comleted projects</p>
+                </div>
+                 </section>
+        
+        
+               <!----  skills   ---->
+
+               <h2>My <span class="colord">Skills</span></h2>
+            <div class="divider ltr"></div>
+
+            <section class="skills">
+                <div>
+                    <ion-icon name="logo-html5"></ion-icon>
+                    <p>HTML5</p>
+                </div>
+                <div>
+                    <ion-icon name="logo-css3"></ion-icon>
+                    <p>CSS</p>
+                </div>
+                <div>
+                    <ion-icon name="logo-javascript"></ion-icon>
+                    <p>JS</p>
+                </div>
+                    <div>
+                    <ion-icon name="logo-react"></ion-icon>
+                    <p>REACT</p>
+                </div>
+                <div>
+                    <div class="circle" style="--percent:85%">
+                        <h4>85<small>%</small></h4>
+                    </div>
+                    <p>bootstrap</p>
+                </div>
+                 <div>
+                    <div class="circle" style="--percent:65%">
+                        <h4>65<small>%</small></h4>
+                    </div>
+                    <p>MySQL</p>
+                </div>
+                <div>
+                    <div class="progress-bar">
+                        <p>Python <span>78%</span></p>
+                        <progress max="100" value="78"></progress>
+                    </div>
+                </div>
+               
+           
+            
+             </section>
+
+           <!--experience-->
+
+          <h1 id="resume">MY <span class="colord">Experience</span></h1>
+          <div class="divider"></div>
+
+          <section class="experiences">
+            <div class="experience">
+                <h2>Front-End Web developer</h2>
+                <h4>Integrity software, Icc. <span class="date">oct, 2023</span> &#x26AC; <span class="date">dec, 2024</span></h4>
+                <p>I have solid experience in front-end development, specializing in building responsive, user-friendly interfaces using HTML, CSS, and JavaScript. I’m proficient in modern frameworks like React, and I focus on writing clean, maintainable code that ensures both functionality and great user experience. My work often involves translating UI/UX designs into fully functional web pages, optimizing performance, and ensuring cross-browser compatibility. I'm also comfortable using tools like Git, Webpack, and Figma to streamline my workflow and collaborate effectively.</p>
+            </div>
+          </section>
+          
+          <h1 id="projects">My <span class="colord">Projects</span></h1>
+          <div class="divider ltr"></div>
+
+              <section class="projects">
+                <div class="project-1">
+                    <img src="img/3d social media icons.png" alt="">
+                    <h3>3d social media icons</h3>
+                </div>
+                <div class="project-2">
+                    <img src="img/Animated profile card.png" alt="">
+                    <h3>Animated profile card</h3>
+                </div>
+                <div class="project-3">
+                    <img src="img/Password generator system.png" alt="">
+                    <h3>Password generator system</h3>
+                </div>
+                <div class="project-4">
+                    <img src="img/Responsive login form.png" alt="">
+                    <h3>Responsive login form</h3>
+                </div>
+                <div class="project-5">
+                    <img src="img/Slideshow.png" alt="">
+                    <h3>Slideshow</h3>
+                </div>
+                <div class="project-6">
+                    <img src="img/Swiper cards.png" alt="">
+                    <h3>Swiper cards</h3>
+                </div>
+                <div class="project-7">
+                    <img src="img/to do list.png" alt="">
+                    <h3>to do list</h3>
+                </div>
+              </section>
+
+
+
+
+                      <h1 id="blogs">My <span class="colord">Blogs</span></h1>
+                      <div class="divider ltr"></div>
+
+
+                         <section class="blogs">
+                            <div class="blog-box">
+                                <img src="img/blog-1.webp" alt="">
+                                <div>
+                                    <h3>Web Design Tools</h3>
+                                    <p>Web design tools like Figma and Adobe XD help create clean, responsive, and user-friendly website layouts, making the design process faster and more collaborative.</p>
+                                    <span class="link"><a href="#">Read More</a><ion-icon name="caret-forward-outline"></ion-icon></span>
+                                </div>
+                            </div>
+                             <div class="blog-box">
+                                <img src="img/blog-2.png" alt="">
+                                <div>
+                                    <h3>How to Develop WoedPress Plugin</h3>
+                                    <p>Developing a WordPress plugin involves creating a PHP file with specific functions and hooks that add features to a site. You place the plugin in the wp-content/plugins folder, then activate it from the dashboard.</p>
+                                    <span class="link"><a href="#">Read More</a><ion-icon name="caret-forward-outline"></ion-icon></span>
+                                </div>
+                            </div>
+                             <div class="blog-box">
+                                <img src="img/blog-3.webp" alt="">
+                                <div>
+                                    <h3>What is Bootstrap</h3>
+                                    <p>Bootstrap is a popular open-source CSS framework used to build responsive and mobile-first websites quickly using ready-made design components and a grid system.</p>
+                                    <span class="link"><a href="#">Read More</a><ion-icon name="caret-forward-outline"></ion-icon></span>
+                                </div>
+                            </div>
+                             <div class="blog-box">
+                                <img src="img/blog-4.jpg" alt="">
+                                <div>
+                                    <h3>What is React</h3>
+                                    <p>React is a JavaScript library used for building fast, dynamic user interfaces by creating reusable UI components and managing state efficiently.</p>
+                                    <span class="link"><a href="#">Read More</a><ion-icon name="caret-forward-outline"></ion-icon></span>
+                                </div>
+                            </div>
+                         </section>
+
+
+
+
+
+                               <h1 id="contact">Contact <span class="colord">Me</span></h1>
+                               <div class="divider ltr"></div>
+
+                                     <section>
+                                        <form action="#" class="contact">
+                                            <div>
+                                                <input type="text" class="input" name="firstname" placeholder="Your name....">
+                                            </div>
+                                            <div>
+                                                <input type="text" class="input" name="lastname" placeholder="Your lastname....">
+                                            </div>
+                                            <div>
+                                                <input type="email" class="input" name="email" placeholder="Your Email....">
+                                            </div>
+                                            <div>
+                                                <textarea class="input" rows="4" name="subject" placeholder="....." ></textarea>
+                                            </div>
+                                            <div>
+                                                <button type="submit" class="submit">SEND</button>
+                                            </div>
+                                        </form>
+                                     </section>
+          
+
+
+
+        </div>
+
+        
+        
+        
+        
+
+    </div>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>
